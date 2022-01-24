@@ -1,0 +1,30 @@
+.tel{
+    background-color: #DAD9D6;
+}
+.tel__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 182px 0px 176px;
+}
+.tel__name{
+    font-size: 60px;
+line-height: 74px;
+/* or 123% */
+
+letter-spacing: 3px;
+text-transform: uppercase;
+width: 375px;
+color: #181A3F;
+}
+.tel-mail{
+    display: flex;
+    flex-direction: column;
+   width: 350px;
+}
+.tel-mail__link{
+    font-size: 32px;
+line-height: 49px;
+color: #181A3F;
+
+}

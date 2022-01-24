@@ -1,0 +1,54 @@
+.header{
+    padding: 36px 0px;
+    border-bottom: 1px solid #DAD9D6;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 3;
+    background-color: #fff;
+    
+}
+.header__container{
+    display: flex;
+    align-items: center;
+    
+   
+  
+}
+.header__btn-cart{
+    border: none;
+    background-color: transparent;
+    font-size: 18px;
+line-height: 30px;
+letter-spacing: 0.72px;
+text-transform: uppercase;
+margin-right: 20px;
+color: #181A3F;
+&:hover{
+    color: red;
+    transition: 1s ease color;
+}
+}
+.header__btn-burger{
+   
+    
+    border: none;
+    background-color: transparent;
+    width: 54px;
+
+    &::before,
+    &::after{
+        display: block;
+        width: 100%;
+        height: 3px;
+        content: "";
+        background-color: #181A3F;
+        // position: absolute;
+      
+       
+    }
+    &::after{
+        margin-top: 17px;
+    }
+    
+}

@@ -1,0 +1,38 @@
+
+.intro__container{
+    padding-top: 234px;
+    padding-bottom: 250px;
+    background: url("../img/intro.png") no-repeat   top;
+    background-size: contain;
+    background-position: right
+}
+.intro__project{
+    border: 1px solid $word-color;
+    margin-left: 30px;
+
+    &:hover{
+        opacity: 0.7;
+    transition: 1s ease background-color;
+    border-color: $word-color;
+    color: wheat;
+    background-color: $word-color;
+    }
+}
+.intro__title{
+    font-size: 54px;
+line-height: 74px;
+/* or 137% */
+margin: 0px;
+
+letter-spacing: 2.16px;
+text-transform: uppercase;
+
+color: #181A3F;
+width: 630px;
+}
+.intro__text{
+    width: 462px;
+    margin: 0px;
+    margin-top: 13px;
+    margin-bottom: 74px;
+}

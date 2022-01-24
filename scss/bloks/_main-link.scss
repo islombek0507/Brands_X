@@ -1,0 +1,22 @@
+.main-link{
+    font-size: 20px;
+line-height: 22px;
+/* identical to box height, or 110% */
+
+text-align: center;
+letter-spacing: 1.6px;
+text-transform: uppercase;
+padding: 17px 56px;
+}
+.main-link--orange{
+    background-color: $accent-color;
+    border: 1px solid $accent-color;
+    &:hover{
+   
+    opacity: 0.7;
+    transition: 1s ease background-color;
+    
+    
+    }
+    
+}
